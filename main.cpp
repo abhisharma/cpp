@@ -50,11 +50,11 @@ int main(int argc, char *argv[])
     funcobjects();
 
     arrayrefs();
-/*
+
     concurrency();
     concurrency2();
     mythread();
-    mythread2();*/
+    mythread2();
 
     driver_spreadsheet();
     driver_arrays();

@@ -2,7 +2,7 @@
 #include <future>
 
 using namespace std;
-/*
+
 long myfunc() {
     const long MAX_COUNT = 1000000000;
     auto s = 0;
@@ -41,4 +41,3 @@ void concurrency() {
     cout<<"Sum is "<<f5.get()<<endl;
     
 }
-*/

@@ -4,7 +4,7 @@
 #include <mutex>
 
 using namespace std;
-/*
+
 list<int> some_list;
 mutex some_mutex;
 
@@ -58,4 +58,3 @@ void concurrency2() {
     x1.print();
     x2.print();
 }
-*/

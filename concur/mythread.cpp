@@ -2,7 +2,7 @@
 #include <thread>
 
 using namespace std;
-/*
+
 void thread_func(int i, const string& s) {
     cout << "\nInside thread_func " << i <<  endl;
     cout << "s=" << s << endl;
@@ -23,4 +23,4 @@ void mythread() {
     //thread th(thread_func, 20, cref(mystr));
     thread th2(thread_func, 20, mystr);
     th2.detach();
-}*/
+}
