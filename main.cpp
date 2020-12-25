@@ -33,6 +33,8 @@ extern void driver_extract();
 extern void driver_optionals();
 extern void driver_stringview();
 
+extern void driver_ranges();
+
 int main(int argc, char *argv[])
 {
     driver_cplus();
@@ -70,6 +72,8 @@ int main(int argc, char *argv[])
 
     driver_optionals();
     driver_stringview();
+
+    driver_ranges();
 
     return 0;
 }

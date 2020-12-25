@@ -30,4 +30,5 @@ add_executable(cpp
         templates/partial.cpp
         appl/extract.cpp
         cpp17/optionals.cpp
-        cpp17/stringview.cpp)
+        cpp17/stringview.cpp
+        cpp20/ranges.cpp)
