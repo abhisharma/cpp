@@ -1,6 +1,3 @@
-#include <iostream>
-
-using namespace std;
 
 extern void driver_cplus();
 extern void driver_block();
@@ -32,6 +29,9 @@ extern void driver_partial();
 extern void driver_arrays();
 
 extern void driver_extract();
+
+extern void driver_optionals();
+extern void driver_stringview();
 
 int main(int argc, char *argv[])
 {
@@ -67,6 +67,9 @@ int main(int argc, char *argv[])
     driver_partial();
 
     driver_extract();
+
+    driver_optionals();
+    driver_stringview();
 
     return 0;
 }

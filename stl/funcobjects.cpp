@@ -60,8 +60,8 @@ void funcobjects()
 
     multipliesFunc1<float> m1;
 
-    cout<<"Count<4.0 is "<<count_if(v1.begin(), v1.end(), bind1st(m1,4.0))<<endl;
-    cout<<"Count>4.0 is "<<count_if(v1.begin(), v1.end(), bind2nd(m1,4.0))<<endl;
+//    cout<<"Count<4.0 is "<<count_if(v1.begin(), v1.end(), bind1st(m1,4.0))<<endl;
+//    cout<<"Count>4.0 is "<<count_if(v1.begin(), v1.end(), bind2nd(m1,4.0))<<endl;
 }
 
 
