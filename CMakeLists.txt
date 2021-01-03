@@ -31,4 +31,5 @@ add_executable(cpp
         appl/extract.cpp
         cpp17/optionals.cpp
         cpp17/stringview.cpp
-        cpp20/ranges.cpp)
+        cpp20/ranges.cpp
+        smartptrs/smartptrs.cpp)

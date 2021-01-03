@@ -35,6 +35,8 @@ extern void driver_stringview();
 
 extern void driver_ranges();
 
+extern void driver_smartptrs();
+
 int main(int argc, char *argv[])
 {
     driver_cplus();
@@ -74,6 +76,8 @@ int main(int argc, char *argv[])
     driver_stringview();
 
     driver_ranges();
+
+    driver_smartptrs();
 
     return 0;
 }
